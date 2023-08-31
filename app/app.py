@@ -4,7 +4,7 @@ import socket, os
 
 app = Flask(__name__, template_folder='templates_folder')
 
-# Rota MDC
+### Rota MDC
 @app.route("/mdc")
 def mdc():
   return render_template('mdc.html')
