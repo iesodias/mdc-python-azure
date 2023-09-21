@@ -2,7 +2,7 @@
 FROM iesodias/python310:latest
 
 # copy every content from the local file to the image
-COPY . /app
+COPY app/. /app
 
 # switch working directory
 WORKDIR /app
